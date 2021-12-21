@@ -1,20 +1,20 @@
 # clip-yt
 Save a clip of any YouTube video to your desktop. Download them as audio (mp3) or video (mp4).
 
-
+# How it Work
 Essentially, it formats an ffmpeg command in python and then saves it to your clipboard.
-It's pretty jank, but it works.
-
+It's pretty jank, but it functions.
 Written in python and zsh.
 
-clip-yt.py is the only file you need. 
-zshrc and installer are part of a semi-automatic macos install.
-I will streamline the install process later, but its not a high priority.
+# Installing
+1. copy clip-yt.py to your machine
+2. run it with python
+3. profit
 
-Requires:
+# Requires:
 yt-dlp
-  using youtube-dl will result in slow downloads. downloads the video
+    downloads the video. This fork gets around the issue of slow download speeds. 
 clipboard
-  pip utility to automatically copy the formatted command to the clipboard
+    pip utility to automatically copy the formatted command to the clipboard
 ffmpeg
-  clips the desired video segment, reformats into audio if desired
+    clips the desired video segment, reformats into audio if desired
