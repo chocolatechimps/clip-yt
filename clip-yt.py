@@ -70,7 +70,6 @@ else:
     print(white + 'You Entered ' + str(format))
     exit()
 
-
 #   where should the clip get taken
 start = input("Start Time HH:mm:ss :    ")
 end = input("Stop  Time HH:mm:ss :    ")
