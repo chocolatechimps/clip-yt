@@ -9,7 +9,4 @@ Buggy with long videos ( eg stuff over an hour or so )
 4. `python3 clip-yt.py`
 
 # Requires:
-yt-dlp
-    downloads the video. fork of youtube-dl. yt-dlp is better becuase it isn't throttled by youtube.
-ffmpeg
-    clips the desired video segment, reformats into audio if desired
+yt-dlp and ffmpeg
